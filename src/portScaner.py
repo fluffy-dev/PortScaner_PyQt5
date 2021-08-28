@@ -77,6 +77,7 @@ class Scaner(QMainWindow,Ui_MainWindow):
 
 
 if __name__ == '__main__':
+	QApplication.setStyle("fusion")
 	app = QApplication(sys.argv)
 	scaner = Scaner()
 	scaner.show()
